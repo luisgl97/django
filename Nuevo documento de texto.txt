@@ -1,0 +1,57 @@
+C:\Users\PC\Desktop\Proyectos\DjangoAngular>python -m venv myenv
+
+C:\Users\PC\Desktop\Proyectos\DjangoAngular>myenv\Scripts\activate
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular>pip install django
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular>pip install djangorestframework
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular>django-admin startproject DjangoAPI
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular>cd DjangoAPI
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI>python manage.py runserver
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI>pip install django-cors-headers
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI>python manage.py startapp EmployeeApp
+
+--------Crear la BD
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI>python manage.py makemigrations EmployeeApp
+
+(myenv) C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI>python manage.py migrate EmployeeApp
+
+--------------
+
+deactivate              para cerrar
+
+
+
+
+
+
+Angular
+
+C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI\ui>ng new angular
+
+C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI\ui>cd angular
+
+C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI\ui\angular>ng serve --open                     Iniciar servidor
+
+C:\Users\PC\Desktop\Proyectos\DjangoAngular\DjangoAPI\ui\angular>ng generate component department
+
+
+
+pip install gunicorn
+
+pip install psycopg2         Para utilizar postgressql
+
+pip install dj-database-url
+
+pip install python-decouple
+
+pip freeze > requirements.txt
+
+pip install whitenoise
+
